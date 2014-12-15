@@ -29,3 +29,27 @@ $ git merge v2.7.2
 
 #################################################### 
 
+#### set local repository to tract remote repository ###
+
+$git branch 
+
+########################
+
+###### git merging #####
+
+$ git merge <tag_name/branch_name>
+
+$ git merge --abort
+
+#########################
+
+####git delete###########
+
+##delete branch locally##
+$ git branch -d <branch_name>
+
+##delete remote branch##
+$ git push origin :<remote_branch_name>
+
+######################### 
+
