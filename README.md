@@ -37,7 +37,7 @@ $git branch
 
 ###### git merging #####
 
-$ git merge <tag_name/branch_name>
+$ git merge tag_name/branch_name
 
 $ git merge --abort
 
@@ -45,10 +45,10 @@ $ git merge --abort
 
 
 #### delete branch locally #####
-$ git branch -d <branch_name>
+$ git branch -d branch_name
 
 #### delete remote branch ######
-$ git push origin :<remote_branch_name>
+$ git push origin :remote_branch_name
 
 ######################### 
 
