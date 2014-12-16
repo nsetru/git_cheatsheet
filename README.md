@@ -44,10 +44,10 @@ $ git merge --abort
 #########################
 
 
-#### delete branch locally #####
+###### delete branch locally ######
 $ git branch -d branch_name
 
-#### delete remote branch ######
+###### delete remote branch ######
 $ git push origin :remote_branch_name
 
 ######################### 
