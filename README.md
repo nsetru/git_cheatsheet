@@ -24,7 +24,7 @@ $ git fetch moodlecore --tags
 ###### considering you are on moodle_v2.6.6, checkout a new branch ######
 $ git checkout -b moodle_v2.7.2
 
-##### merge v2.7.2 tag with moodle_v2.7.2 branch ######
+###### merge v2.7.2 tag with moodle_v2.7.2 branch ######
 $ git merge v2.7.2
 
 #################################################### 
