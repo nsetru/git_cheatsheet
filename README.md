@@ -52,3 +52,9 @@ $ git push origin :remote_branch_name
 
 ######################### 
 
+####git commit####
+commit to git with no message <br />
+$ git commit --allow-empty-message -m ''
+
+amend commit message
+
