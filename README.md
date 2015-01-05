@@ -29,13 +29,13 @@ $ git merge v2.7.2
 
 #################################################### 
 
-###### set local repository to tract remote repository ######
+####set local repository to tract remote repository####
 
 $git branch 
 
 ########################
 
-###### git merging #####
+####git merging####
 
 $ git merge tag_name/branch_name
 
