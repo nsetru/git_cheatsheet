@@ -27,11 +27,17 @@ $ git checkout -b moodle_v2.7.2
 merge v2.7.2 tag with moodle_v2.7.2 branch  <br /> 
 $ git merge v2.7.2
 
-#################################################### 
+###########################
 
-####set local repository to tract remote repository####
+####git branching####
+set local repository to track remote repository <br />
+$git branch --set-upstream-to origin/<branch_name>
 
-$git branch 
+delete branch locally <br /> 
+$ git branch -d branch_name
+
+delete remote branch <br />
+$ git push origin :remote_branch_name
 
 ########################
 
@@ -41,16 +47,16 @@ $ git merge tag_name/branch_name
 
 $ git merge --abort
 
-delete branch locally <br /> 
-$ git branch -d branch_name
-
-delete remote branch <br />
-$ git push origin :remote_branch_name
-
+########################
 
 ####git commit####
 commit to git with no message <br />
 $ git commit --allow-empty-message -m ''
 
-amend commit message
+amend commit message <br />
+$ git commit --amend -m "New commit message"
 
+revert commit <br />
+$ git revert <commit_id>
+
+#########################
