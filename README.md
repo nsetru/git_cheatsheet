@@ -57,6 +57,6 @@ amend commit message <br />
 $ git commit --amend -m "New commit message"
 
 revert commit <br />
-$ git revert <commit_id>
+$ git revert < commit_id >
 
 #########################
