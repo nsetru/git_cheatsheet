@@ -31,7 +31,7 @@ $ git merge v2.7.2
 
 ####git branching####
 set local repository to track remote repository <br />
-$git branch --set-upstream-to origin/<branch_name>
+$git branch --set-upstream-to origin/< branch_name >
 
 delete branch locally <br /> 
 $ git branch -d branch_name
