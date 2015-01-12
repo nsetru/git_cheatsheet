@@ -6,7 +6,7 @@ gitguide
 $ cd /c/xampp/htdocs/moodlecorelocal
 $ git branch -va 
 
-add remote moodle core repository <br />
+<i>add remote moodle core repository</i> <br />
 $ git remote add moodlecore git://git.moodle.org/moodle.git
 
 list of remote repositories <br />
