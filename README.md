@@ -72,9 +72,13 @@ pull all changes from remote master (in case current repo is out-of-date) <br />
 $ git pull origin master
 
 $ git checkout -b upgrade_moodle_2.x.x origin/master
+
 $ git remote add moodle git://git.moodle.org/moodle.git
+
 $ git fetch moodle
+
 $ git fetch moodle --tags
+
 $ git merge v2.x.x
 
 ----upgrade complete---
