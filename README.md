@@ -4,39 +4,40 @@ gitguide
 ##### upgrade moodle from v2.6.6 to v2.7.2 ######
 
 $ cd /c/xampp/htdocs/moodlecorelocal
+
 $ git branch -va 
 
 <i>add remote moodle core repository</i> <br />
 $ git remote add moodlecore git://git.moodle.org/moodle.git
 
-list of remote repositories <br />
+<i>list of remote repositories</i> <br />
 $ git remote -v
 
-list local and remote branches <br />
+<i>list local and remote branches</i> <br />
 $ git branch -va
 
-fetch moodlecore repository <br />
+<i>fetch moodlecore repository</i> <br />
 $ git fetch moodlecore
 
-fetch all tags associated with moodle core  <br />
+<i>fetch all tags associated with moodle core</i>  <br />
 $ git fetch moodlecore --tags
 
-considering you are on moodle_v2.6.6, checkout a new branch  <br />
+<i>considering you are on moodle_v2.6.6, checkout a new branch</i>  <br />
 $ git checkout -b moodle_v2.7.2
 
-merge v2.7.2 tag with moodle_v2.7.2 branch  <br /> 
+<i>merge v2.7.2 tag with moodle_v2.7.2 branch</i>  <br /> 
 $ git merge v2.7.2
 
 ###########################
 
 ####git branching####
-set local repository to track remote repository <br />
+<i>set local repository to track remote repository</i> <br />
 $git branch --set-upstream-to origin/< branch_name >
 
-delete branch locally <br /> 
+<i>delete branch locally</i> <br /> 
 $ git branch -d branch_name
 
-delete remote branch <br />
+<i>delete remote branch</i> <br />
 $ git push origin :remote_branch_name
 
 ########################
