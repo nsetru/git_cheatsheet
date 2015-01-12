@@ -28,6 +28,23 @@ $ git checkout -b moodle_v2.7.2
 <i>merge v2.7.2 tag with moodle_v2.7.2 branch</i>  <br /> 
 $ git merge v2.7.2
 
+<i> check all modified files</i> <br />
+$ git status
+
+<i> add/stage all modified file/files </i><br/>
+$ git add < file_name >
+--OR--
+$ git add .
+
+<i> commit all staged files to git </i> <br />
+$ git commit -m "commit message"
+
+<i> check commit-ids with commit messages </i> <br />
+$ git log -n
+
+<i> push all commit to remote </i> <br />
+$ git push origin HEAD
+
 ###########################
 
 ####git branching####
