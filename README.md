@@ -61,7 +61,7 @@ $ git revert < commit_id >
 
 #########################
 
-####upgrade a feature and moodle to 2.x.x####
+####upgrade a test_moodle plugin and moodle to 2.x.x####
 
 ----upgrade moodle to 2.x.x----- <br />
 
@@ -82,3 +82,10 @@ $ git fetch moodle --tags
 $ git merge v2.x.x
 
 ----upgrade complete---
+
+----After upgrading moodle, its time to upgrade test_moodle plugin-----
+
+checkout a new feature branch off the < upgrade_moodle_2.x.x > <br />
+$ git checkout -b feature_test_moodle_plugin
+
+
