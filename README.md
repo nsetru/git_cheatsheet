@@ -1,5 +1,6 @@
 gitguide
 ========
+http://yakiloo.com/getting-started-git-flow/
 
 ##### upgrade moodle from v2.6.6 to v2.7.2 ######
 
