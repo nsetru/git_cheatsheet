@@ -149,6 +149,7 @@ $ git tag -l
 
 <i> checkout a new branch from tag</i> <br />
 $ git checkout -b < new_branch_name > < remote_tag_name >
-----------------
+
+-- -- --- --- --- ---
 
 
