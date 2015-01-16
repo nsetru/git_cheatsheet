@@ -142,7 +142,7 @@ $ git merge test_moodle/feature_test_moodle_2
 
 --------------------------------------------------------------------
 
-----git tag----
+####git tag####
 
 <i>list available tags</i> <br />
 $ git tag -l
