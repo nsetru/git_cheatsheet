@@ -147,6 +147,8 @@ $ git merge test_moodle/feature_test_moodle_2
 <i>list available tags</i> <br />
 $ git tag -l
 
+<i> checkout a new branch from tag</i> <br />
+$ git checkout -b < new_branch_name > < remote_tag_name >
 ----------------
 
 
