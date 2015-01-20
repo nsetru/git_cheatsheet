@@ -58,6 +58,13 @@ $ git branch -d branch_name
 <i>delete remote branch</i> <br />
 $ git push origin :remote_branch_name
 
+<i>Rename current branch locally</i><br />
+$ git branch -m < newname >
+
+<i> Rename different branch </i> <br />
+$ git branch -m < old_branch_name > < new_branch_name >
+
+
 ########################
 
 ####git merging####
