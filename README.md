@@ -110,6 +110,12 @@ $ git cherry-pick < commit-id >
 
 <i>Abort cherry-pick </i><br />
 $ git cherry-pick --abort
+
+<i> Amend latest commit </i> <br />
+$ git add < modified_file_name >
+$ git commit --amend
+save :wq 
+
 #########################
 
 ####upgrade a test_moodle plugin and moodle to 2.x.x####
