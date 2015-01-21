@@ -108,6 +108,8 @@ $ git checkout -b < branch_name > origin/< remote_branch_name >
 cherry pick single commit <br />
 $ git cherry-pick < commit-id >
 
+<i>Abort cherry-pick </i><br />
+$ git cherry-pick --abort
 #########################
 
 ####upgrade a test_moodle plugin and moodle to 2.x.x####
