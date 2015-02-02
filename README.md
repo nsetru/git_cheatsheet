@@ -50,7 +50,9 @@ $ git push origin HEAD
 
 ####git branching####
 <i>set local repository to track remote repository</i> <br />
-$git branch --set-upstream-to origin/< branch_name >
+$ git branch --set-upstream-to origin/< branch_name >
+<br />
+$ git branch --set-upstream-to=origin/<branch> moodle_v2.6.7
 
 <i>delete branch locally</i> <br /> 
 $ git branch -d branch_name
