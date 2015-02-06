@@ -114,8 +114,8 @@ $ git cherry-pick < commit-id >
 $ git cherry-pick --abort
 
 <i> Amend latest commit </i> <br />
-$ git add < modified_file_name >
-$ git commit --amend
+$ git add < modified_file_name > <br />
+$ git commit --amend <br />
 save :wq 
 
 #########################
@@ -169,4 +169,8 @@ $ git checkout -b < new_branch_name > < remote_tag_name >
 
 -- -- --- --- --- ---
 
+####git push####
+
+<i>git forced push</i> <br />
+$ git push -f origin HEAD
 
