@@ -118,6 +118,9 @@ $ git add < modified_file_name > <br />
 $ git commit --amend <br />
 save :wq 
 
+<i>search through commit headers in command line</i> <br />
+$ git log --oneline | grep '< search_string > ' <br /> 
+
 #########################
 
 ####upgrade a test_moodle plugin and moodle to 2.x.x####
