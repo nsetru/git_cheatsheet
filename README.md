@@ -66,6 +66,8 @@ $ git branch -m < newname >
 <i> Rename different branch </i> <br />
 $ git branch -m < old_branch_name > < new_branch_name >
 
+<i> prune remote branches (get rid of remote ranhes thgat are deleted) </i> <br />
+$ git remote prune origin
 
 ########################
 
@@ -73,41 +75,41 @@ $ git branch -m < old_branch_name > < new_branch_name >
 
 $ git merge tag_name/branch_name
 
-abort merge <br />
+<i> abort merge </i> <br />
 $ git merge --abort
 
-resolve merge conflicts <br />
+<i> resolve merge conflicts </i> <br />
 $ git mergetool
 
 ########################
 
 ####git commit####
 
-commit to git with no message <br />
+<i> commit to git with no message </i> <br />
 $ git commit --allow-empty-message -m ''
 
-amend commit message <br />
+<i> amend commit message </i> <br />
 $ git commit --amend -m "New commit message"
 
-revert commit <br />
+<i> revert commit </i> <br />
 $ git revert < commit_id >
 
-list of files committed <br />
+<i> list of files committed </i> <br />
 $ git diff-tree --no-commit-id --name-only -r <commit_id>
 
-list of local and remote branches <br />
+<i> list of local and remote branches </i> <br />
 $ git branch -va
 
-revert back changes staged/unstaged <br />
+<i> revert back changes staged/unstaged </i> <br />
 $ git checkout < filename >
  --OR--
-revert all changed files <br />
+<i> revert all changed files </i> <br />
 $ git  checkout .
 
-checkout branch while tracking remote repo <br />
+<i> checkout branch while tracking remote repo </i> <br />
 $ git checkout -b < branch_name > origin/< remote_branch_name >
 
-cherry pick single commit <br />
+<i> cherry pick single commit </i> <br />
 $ git cherry-pick < commit-id >
 
 <i>Abort cherry-pick </i><br />
