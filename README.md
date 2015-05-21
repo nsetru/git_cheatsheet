@@ -2,6 +2,17 @@ gitguide
 ========
 http://yakiloo.com/getting-started-git-flow/
 
+#### git config ####
+
+<i>List all got config values</i> <br />
+$ git config -l
+
+<i>Add/Edit username and password</i> <br />
+$ git config user.name "Nivedita Setru"
+$ git config user.email "n.setru@ucl.ac.uk"
+
+
+########################
 ##### upgrade moodle from v2.6.6 to v2.7.2 ######
 
 $ cd /c/xampp/htdocs/moodlecorelocal
