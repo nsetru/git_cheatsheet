@@ -7,7 +7,11 @@ http://yakiloo.com/getting-started-git-flow/
 <i>List all got config values</i> <br />
 $ git config -l
 
-<i>Add/Edit username and password</i> <br />
+<i>set username and email for every repository in the system</i> <br />
+$ git config --global user.name "Nivedita Setru"
+$ git config --global user.email "n.setru@ucl.ac.uk"
+
+<i>set username and email for a specific repository</i> <br />
 $ git config user.name "Nivedita Setru"
 $ git config user.email "n.setru@ucl.ac.uk"
 
