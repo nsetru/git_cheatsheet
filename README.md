@@ -188,13 +188,13 @@ $ git tag -l
 $ git checkout -b < new_branch_name > < remote_tag_name >
 
 <i> delete git tags in bulk </i> <br />
-#Delete local tags.
+#Delete local tags. <br />
 $ git tag -d $(git tag -l)
-#Fetch remote tags.
+#Fetch remote tags. <br />
 $ git fetch
-#Delete remote tags.
+#Delete remote tags. <br />
 $ git push origin --delete $(git tag -l) # Pushing once should be faster than multiple times
-#Delete local tags.
+#Delete local tags. <br />
 $ git tag -d $(git tag -l)
 
 
