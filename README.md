@@ -5,7 +5,7 @@ http://yakiloo.com/getting-started-git-flow/
 #### git config ####
 
 <i>List all got config values</i> <br />
-$ git config -l
+`$ git config -l`
 
 <i>set username and email for every repository in the system</i> <br />
 $ git config --global user.name "username" <br />
